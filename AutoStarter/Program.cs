@@ -35,7 +35,7 @@ namespace AutoStarter
 				if (processes != null && processes.Length != 0)
 					continue;
 
-				Console.WriteLine(DateTime.Now + "Process [" + processName + "] has been closed, going to run it");
+				Console.WriteLine(DateTime.Now + " Process [" + processName + "] has been closed, going to run it");
 
 				Process p = new Process();
 				p.StartInfo.FileName = path;
